@@ -221,7 +221,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn {
-  background-image: url(..//images/search-icon.png);
+  background-image: url(/images/search-icon.png);
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
@@ -255,7 +255,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(..//images/menu.png);
+  background-image: url(/images/menu.png);
   background-size: 55px;
 }
 
@@ -381,20 +381,20 @@ a:focus {
 
   .carousel-control-prev {
 
-    background-image: url(..//images/prev.png);
+    background-image: url(/images/prev.png);
 
     &:hover {
-      background-image: url(..//images/prev-grey.png);
+      background-image: url(/images/prev-grey.png);
     }
 
     transform: translateY(57%);
   }
 
   .carousel-control-next {
-    background-image: url(..//images/next.png);
+    background-image: url(/images/next.png);
 
     &:hover {
-      background-image: url(..//images/next-grey.png);
+      background-image: url(/images/next-grey.png);
     }
 
     transform: translateY(-57%);
@@ -583,20 +583,20 @@ a:focus {
       .owl-prev {
         width: 75px;
         height: 75px;
-        background-image: url(..//images/prev.png);
+        background-image: url(/images/prev.png);
 
         &:hover {
-          background-image: url(..//images/prev-grey.png);
+          background-image: url(/images/prev-grey.png);
         }
       }
 
       .owl-next {
         width: 50px;
         height: 50px;
-        background-image: url(..//images/next.png);
+        background-image: url(/images/next.png);
 
         &:hover {
-          background-image: url(..//images/next-grey.png);
+          background-image: url(/images/next-grey.png);
         }
       }
 
@@ -766,14 +766,14 @@ a:focus {
     }
 
     .owl-prev {
-      background-image: url(..//images/prev-arrow.png);
+      background-image: url(/images/prev-arrow.png);
       background-color: $black;
       transform: translateX(10px);
       background-position: 15px center;
     }
 
     .owl-next {
-      background-image: url(..//images/next-arrow.png);
+      background-image: url(/images/next-arrow.png);
       background-color: $white;
       transform: translateX(-10px);
     }
