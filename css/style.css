@@ -7,6 +7,10 @@ body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+p {
+  text-align: justify;
+}
+
 .layout_padding {
   padding: 60px 20px; /* Reduced padding for mobile */
 }
@@ -336,7 +340,7 @@ a:focus {
 }
 
 .slider_section #carouselExampleIndicators .box {
-  height: 500px;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
