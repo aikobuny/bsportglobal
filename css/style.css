@@ -12,7 +12,7 @@ p {
 }
 
 .layout_padding {
-  padding: 60px 20px; /* Reduced padding for mobile */
+  padding: 0 0; /* Reduced padding for mobile */
 }
 
 .layout_padding2 {
@@ -145,7 +145,7 @@ a:focus {
 
 .main_nav ul li a {
   color: #C4FF00;
-  font-size: 1rem;
+  font-size: .85rem;
   margin: 0 10px;
   text-transform: uppercase;
 }
@@ -210,9 +210,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 250px;
+  width: 200px;
   margin-right: 5px;
-  bottom: 8px;
   position: relative;
 }
 
@@ -494,11 +493,12 @@ a:focus {
 }
 
 .program_grid {
-  width: 60em;
+  width: 95%;
+
 }
 
 .core_values {
-  width: 80em;
+  width: 95%;
 }
 
 .class_section {
@@ -976,7 +976,7 @@ ol > li::marker {
 
 @media (max-width: 768px) {
   .layout_padding {
-    padding: 20px;
+    padding: 0;
   }
 
   .heading_container h2 {
@@ -1004,11 +1004,14 @@ ol > li::marker {
   }
 }
 
-@media (max-width: 1024px) {
-  .core_values {
-    width: 30em;
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 0;
   }
-  .program_grid {
-    width: 30em;
+  .header {
+    flex-direction: column;
   }
 }
