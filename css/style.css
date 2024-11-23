@@ -162,12 +162,18 @@ a:focus {
   text-align: center;
   text-transform: uppercase;
   filter: drop-shadow(0px 0px 15px #C4FF00);
+  transition: .2s all;
 }
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 20px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+}
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover {
+  color: #C4FF00;
+  filter: drop-shadow(0px 0px 15px #C4FF00);
+  transition: .2s all;
 }
 
 
